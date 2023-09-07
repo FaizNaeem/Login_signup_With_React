@@ -15,7 +15,7 @@ export default function Login() {
     const user = userCredential.user;
     console.log("scucces");
     navigate('/')
-    // ...
+  
   })
   .catch((error) => {
     const errorCode = error.code;
