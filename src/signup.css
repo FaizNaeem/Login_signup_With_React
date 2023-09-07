@@ -1,0 +1,22 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.form-control:focus{
+    border:1px solid #ced4da !important;
+    box-shadow: #ced4da 0px 0px 0px !important;
+      }
+       .input-group{
+            width: 300px !important;
+        }
+        .btn{
+            width: 300px !important;
+        }
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
