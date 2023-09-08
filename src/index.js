@@ -10,14 +10,20 @@ import {
   Link,
 } from "react-router-dom";
 import Login from './com/Login'
+import Signup from './com/signup';
+import Dashboard from './com/dashboard';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Signup />,
   },  {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
   },
  
 ]);

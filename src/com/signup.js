@@ -76,6 +76,9 @@ export default function Signup() {
   </div>
 </nav>
         <div className="center">
+          <div className='why'>
+
+       
             <h1 className='mb-3 mt-5'>Signup</h1>
         <div className="input-group mb-3">
   <span className="input-group-text" id="basic-addon1"><i class="fa-regular fa-user"></i></span>
@@ -102,6 +105,7 @@ export default function Signup() {
 
 <button className='btn btn-success btn2' onClick={signup}>Signup</button>
 <Link to="/login" className='mt-3 h'>Already have an account?</Link>
+        </div>
         </div>
     </div>
   )

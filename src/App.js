@@ -10,7 +10,7 @@ function App() {
 
   {/* <Login/> */}
   {/* <Buget /> */}
-  <Signup/>
+  {/* <Signup/> */}
     </div>
   );
 }

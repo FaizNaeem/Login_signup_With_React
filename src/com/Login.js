@@ -14,7 +14,7 @@ export default function Login() {
     
     const user = userCredential.user;
     console.log("scucces");
-    navigate('/')
+    navigate('/dashboard')
   
   })
   .catch((error) => {
@@ -55,12 +55,15 @@ export default function Login() {
     </ul>
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-      <Link to="/login" class="btn btn-outline-success" type="submit">Login</Link>
+      <Link to="/" class="btn btn-outline-success" type="submit">Signup</Link>
     </form>
   </div>
 </div>
 </nav>
       <div className="center">
+        <div className="hello">
+
+     
           <h1 className='mb-3'>Login</h1>
 <div className="input-group mb-3">
 <span className="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
@@ -78,5 +81,6 @@ export default function Login() {
 <Link to="/" className='mt-3 h'>Create Account</Link>
       </div>
   </div>
+</div>
   )
 }
