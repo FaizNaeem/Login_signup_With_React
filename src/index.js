@@ -12,6 +12,7 @@ import {
 import Login from './com/Login'
 import Signup from './com/signup';
 import Dashboard from './com/dashboard';
+import Navbar from './com/navbar';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
   {
     path: "/dashboard",
     element: <Dashboard />,
+  },
+ 
+  {
+    path: "/navbar",
+    element: <Navbar />,
   },
  
 ]);
